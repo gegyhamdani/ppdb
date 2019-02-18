@@ -1,0 +1,19 @@
+[gammu]
+device = com16:
+connection = at460800
+
+[smsd]
+service = sql
+logfile = logsms
+debuglevel = 0
+# Inisial modem
+phoneid = Server1
+commtimeout = 10
+sendtimeout = 10
+PIN = 1234
+driver = odbc
+sql = mysql
+host = mysql_odbc
+user = root
+password =
+database = pkl-ppdb

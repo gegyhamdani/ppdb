@@ -1,0 +1,175 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+
+body {
+    color: #797979;
+
+    background: #eeeeee;
+
+    font-family: 'Lato', sans-serif;
+
+    padding: 0px !important;
+
+    margin: 0px !important;
+
+    font-size:14px !important;    
+
+    font-weight: 500;
+
+}
+
+ul.topnavv {
+    list-style-type: none;
+    margin: 1%;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.navkiri{
+	margin-left: 6%;
+}
+
+ul.topnavv li {float: left;}
+
+ul.topnavv li a {
+    display: block;
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+    height: 56px;
+    color: #00A65A;
+    font-size: 28px;
+}
+
+ul.topnavv li.right {
+	float: right; 
+	margin-right: 6.5%;
+}
+
+ul.topnavv li.right a{
+	font-size: 18px;
+	padding-top: 6%;
+}
+
+@media screen and (max-width: 600px){
+    ul.topnavv li.right{float: none; margin-left: 8%;}
+    ul.topnavv li{float: none; margin-left: 1%}
+}
+
+
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #00A65A;
+}
+
+.leftnav{
+	margin-left: 7.7%;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #006638;}
+
+ul.topnav li a.active {background-color: #006638;}
+
+ul.topnav li.right {float: right; margin-right: 7%;}
+
+@media screen and (max-width: 600px){
+    ul.topnav li{float: none; margin-left: -10%}
+}
+
+
+.content-main {
+	margin-top: 3%;
+}
+
+/* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+
+    .carousel-inner img {
+      width: 100%; /* Set width to 100% */
+      min-height: 200px;
+    }
+
+    /* Hide the carousel text when the screen is less than 600 pixels wide */
+    @media (max-width: 600px) {
+      .carousel-caption {
+        display: none; 
+      }
+    }
+
+    .kotak {
+        min-height: 500px;
+    }
+
+    .box {
+        margin: 1% 20% 2% 30%;
+        min-height: 410px;
+        background-color : white;
+    }
+
+    .box h1 {
+        border-bottom: 2px solid #00A65A;
+    }
+
+    .box-body {
+        border-top: 4px solid #00A65A;
+        padding: 1% 2% 2% 1.5%;
+        min-height: 100px;
+        background-color : white;
+    }
+
+    .box-isi {
+        border-top: 4px solid #00A65A;
+        padding: 1% 2% 2% 1.5%;
+        margin-bottom: 2%;
+        min-height: 100px;
+        background-color : white;
+    }
+
+    .box-table {
+        border-top: 4px solid #00A65A;
+        padding: 1% 2% 2% 1.5%;
+        margin-bottom: 2%;
+        min-height: 400px;
+        background-color : white;
+    }    
+
+    .box-isi2 {
+        border-top: 4px solid #00A65A;
+        padding: 1% 2% 2% 1.5%;
+        margin-bottom: 2%;
+        width: 49%;
+        float: left;
+        min-height: 100px;
+        background-color : white;
+    }
+
+    .box-button {
+        border-top: 4px solid #00A65A;
+        padding: 1% 2% 2% 1.5%;
+        min-height: 100px;
+        background-color : white;
+    }
+
+    .buton {
+         padding: 15px 25px;
+         border-radius: 0;
+         margin-right: 2%;
+    }
+
+    .gi-2x{font-size: 2em;}

@@ -1,0 +1,584 @@
+Thu 2018/09/13 20:26:22 gammu-smsd: Connected to Database odbc: sms on mysql_odbc
+Thu 2018/09/13 20:26:22 gammu-smsd: Created Windows RW shared memory at 000002B345000000
+Thu 2018/09/13 20:26:22 gammu-smsd: Starting phone communication...
+Thu 2018/09/13 20:26:26 gammu-smsd: Inserting phone info
+Thu 2018/09/13 20:26:27 gammu-smsd: Read 1 messages
+Thu 2018/09/13 20:26:36 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Thu 2018/09/13 21:20:59 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Thu 2018/09/13 21:21:21 gammu-smsd: Error getting send status of message: No response in specified timeout. Probably phone not connected. (TIMEOUT[14])
+Thu 2018/09/13 21:32:42 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Thu 2018/09/13 21:37:04 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Thu 2018/09/13 21:47:37 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Thu 2018/09/13 21:52:10 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Thu 2018/09/13 21:58:44 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Thu 2018/09/13 22:21:57 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Fri 2018/09/14 14:35:15 gammu-smsd: Connected to Database odbc: sms on mysql_odbc
+Fri 2018/09/14 14:35:15 gammu-smsd: Created Windows RW shared memory at 0000019889530000
+Fri 2018/09/14 14:35:15 gammu-smsd: Starting phone communication...
+Fri 2018/09/14 14:35:19 gammu-smsd: Inserting phone info
+Sat 2018/09/15 14:36:48 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:48 gammu-smsd: 08S01:1:2013:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]Lost connection to MySQL server during query
+
+Sat 2018/09/15 14:36:48 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:48 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:48 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:48 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:48 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:48 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:48 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:36:48 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:48 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:48 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:48 gammu-smsd: Error writing to database (SMSDSQL_RefreshPhoneStatus)
+Sat 2018/09/15 14:36:48 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:48 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:48 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:48 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:48 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:48 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:48 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:48 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:48 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:36:49 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:49 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:49 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:49 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:49 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:49 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:49 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:49 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:49 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:36:50 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:50 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:50 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:50 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:50 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:50 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:50 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:50 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:50 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:36:51 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:51 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:51 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:51 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:51 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:51 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:51 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:51 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:51 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:36:52 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:52 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:52 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:52 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:52 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:52 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:52 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:52 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:52 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:36:53 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:53 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:53 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:53 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:53 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:53 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:53 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:53 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:53 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:36:54 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:54 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:54 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:54 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:54 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:54 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:54 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:54 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:54 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:36:55 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:55 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:55 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:55 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:55 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:55 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:55 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:55 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:55 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:36:56 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:56 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:56 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:56 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:56 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:56 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:56 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:56 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:56 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:36:57 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:57 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:57 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:57 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:57 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:57 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:57 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:57 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:57 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:36:58 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:58 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:58 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:58 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:58 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:58 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:58 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:58 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:58 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:36:59 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:59 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:59 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:59 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:36:59 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:36:59 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:36:59 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:36:59 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:36:59 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:00 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:00 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:00 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:00 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:00 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:00 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:00 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:00 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:00 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:01 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:01 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:01 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:01 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:01 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:01 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:01 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:01 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:01 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:03 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:03 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:03 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:03 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:03 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:03 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:03 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:03 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:03 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:03 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:03 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:03 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:03 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:03 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:03 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:03 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:03 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:03 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:04 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:04 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:04 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:04 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:04 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:04 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:04 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:04 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:04 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:05 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:05 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:05 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:05 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:05 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:05 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:05 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:05 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:05 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:06 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:06 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:06 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:06 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:06 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:06 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:06 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:06 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:06 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:07 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:07 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:07 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:07 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:07 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:07 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:07 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:07 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:07 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:08 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:08 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:08 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:08 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:08 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:08 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:08 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:08 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:08 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:09 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:09 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:09 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:09 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:09 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:09 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:09 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:09 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:09 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:10 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:10 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:10 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:10 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:10 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:10 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:10 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:10 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:10 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:11 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:11 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:11 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:11 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:11 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:11 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:11 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:11 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:11 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:12 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:12 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:12 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:12 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:12 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:12 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:12 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:12 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:12 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:13 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:13 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:13 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:13 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:13 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:13 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:13 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:13 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:13 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:14 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:14 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:14 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:14 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:14 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:14 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:14 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:14 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:14 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:15 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:15 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:15 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:15 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:15 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:15 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:15 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:15 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:15 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:16 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:16 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:16 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:16 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:37:16 gammu-smsd: Error in outbox on ''
+Sat 2018/09/15 14:37:16 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:37:16 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:37:16 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:37:16 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:37:17 gammu-smsd: Stopping Gammu smsd: No error. (NONE[1])
+Sat 2018/09/15 14:37:17 gammu-smsd: Terminating communication...
+Sat 2018/09/15 14:37:19 gammu-smsd: Connected to Database odbc: sms on mysql_odbc
+Sat 2018/09/15 14:37:19 gammu-smsd: Created Windows RW shared memory at 000001DA2B420000
+Sat 2018/09/15 14:37:19 gammu-smsd: Starting phone communication...
+Sat 2018/09/15 14:37:23 gammu-smsd: Inserting phone info
+Sat 2018/09/15 14:37:25 gammu-smsd: Read 1 messages
+Sat 2018/09/15 14:38:17 gammu-smsd: Stopping Gammu smsd: No error. (NONE[1])
+Sat 2018/09/15 14:38:17 gammu-smsd: Terminating communication...
+Fri 2018/09/14 14:39:57 gammu-smsd: Connected to Database odbc: sms on mysql_odbc
+Fri 2018/09/14 14:39:57 gammu-smsd: Created Windows RW shared memory at 000001FBA1AF0000
+Fri 2018/09/14 14:39:57 gammu-smsd: Starting phone communication...
+Fri 2018/09/14 14:40:00 gammu-smsd: Can't open device: Error opening device. Unknown, busy or no permissions. (DEVICEOPENERROR[2])
+Fri 2018/09/14 14:40:00 gammu-smsd: Stopping Gammu smsd: No error. (NONE[1])
+Fri 2018/09/14 14:44:00 gammu-smsd: Connected to Database odbc: sms on mysql_odbc
+Fri 2018/09/14 14:44:00 gammu-smsd: Created Windows RW shared memory at 000001E4A0570000
+Fri 2018/09/14 14:44:00 gammu-smsd: Starting phone communication...
+Fri 2018/09/14 14:44:04 gammu-smsd: Inserting phone info
+Mon 2018/09/17 14:45:34 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:52:36 gammu-smsd: 08S01:1:2013:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]Lost connection to MySQL server during query
+
+Sat 2018/09/15 14:52:36 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:52:36 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/15 14:52:36 gammu-smsd: Error in outbox on 'd'
+Sat 2018/09/15 14:52:36 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/15 14:52:36 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/15 14:52:36 gammu-smsd: SQL failure: 79
+Sat 2018/09/15 14:52:36 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/15 14:54:14 gammu-smsd: Connected to Database odbc: sms on mysql_odbc
+Sat 2018/09/15 14:54:14 gammu-smsd: Created Windows RW shared memory at 0000018085B80000
+Sat 2018/09/15 14:54:14 gammu-smsd: Starting phone communication...
+Sat 2018/09/15 14:54:18 gammu-smsd: Inserting phone info
+Sat 2018/09/15 14:54:19 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Sat 2018/09/22 14:56:44 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:44 gammu-smsd: 08S01:1:2013:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]Lost connection to MySQL server during query
+
+Sat 2018/09/22 14:56:44 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:44 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:44 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:44 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:44 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:44 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:44 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:44 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:44 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:44 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:44 gammu-smsd: Error writing to database (SMSDSQL_RefreshPhoneStatus)
+Sat 2018/09/22 14:56:44 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:44 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:44 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:44 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:44 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:44 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:44 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:44 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:44 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:45 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:45 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:45 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:45 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:45 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:45 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:45 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:45 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:45 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:46 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:46 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:46 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:46 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:46 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:46 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:46 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:46 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:46 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:47 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:47 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:47 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:47 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:47 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:47 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:47 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:47 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:47 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:48 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:48 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:48 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:48 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:48 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:48 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:48 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:48 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:48 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:49 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:49 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:49 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:49 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:49 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:49 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:49 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:49 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:49 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:50 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:50 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:50 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:50 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:50 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:50 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:50 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:50 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:50 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:51 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:51 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:51 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:51 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:51 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:51 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:51 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:51 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:51 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:52 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:52 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:52 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:52 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:52 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:52 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:52 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:52 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:52 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:53 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:53 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:53 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:53 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:53 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:53 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:53 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:53 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:53 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:54 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:54 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:54 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:54 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:54 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:54 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:54 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:54 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:54 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:55 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:55 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:55 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:55 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:55 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:55 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:55 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:55 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:55 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:56 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:56 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:56 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:56 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:56:56 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:56:56 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:56:56 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:56:56 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:56:56 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:56:57 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:57:04 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:57:04 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:57:04 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:57:04 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:57:04 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:57:04 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:57:04 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:57:04 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:57:05 gammu-smsd: Read 1 messages
+Sat 2018/09/22 14:57:05 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:57:05 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:57:05 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:57:05 gammu-smsd: Error writing to database (SMSDSQL_SaveInboxSMS)
+Sat 2018/09/22 14:57:05 gammu-smsd: Error processing SMS: Error in executing SQL query. (SQL[79])
+Sat 2018/09/22 14:57:05 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:57:05 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:57:05 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:57:05 gammu-smsd: Error reading from database (SMSDSQL_FindOutboxSMS)
+Sat 2018/09/22 14:57:05 gammu-smsd: Error in outbox on '12'
+Sat 2018/09/22 14:57:05 gammu-smsd: SQLExecDirect failed, Code = -1, ODBC diagnostics:
+Sat 2018/09/22 14:57:05 gammu-smsd: 08S01:1:2006:[MySQL][ODBC 8.0(a) Driver][mysqld-5.5.5-10.1.25-MariaDB]MySQL server has gone away
+
+Sat 2018/09/22 14:57:05 gammu-smsd: SQL failure: 79
+Sat 2018/09/22 14:57:05 gammu-smsd: Error deleting from database (SMSDSQL_MoveSMS)
+Sat 2018/09/22 14:57:06 gammu-smsd: Stopping Gammu smsd: No error. (NONE[1])
+Sat 2018/09/22 14:57:06 gammu-smsd: Terminating communication...
+Sat 2018/09/22 14:58:00 gammu-smsd: Connected to Database odbc: sms on mysql_odbc
+Sat 2018/09/22 14:58:00 gammu-smsd: Created Windows RW shared memory at 000001ABD8F60000
+Sat 2018/09/22 14:58:00 gammu-smsd: Starting phone communication...
+Sat 2018/09/22 14:58:04 gammu-smsd: Inserting phone info
+Sat 2018/09/22 14:58:05 gammu-smsd: Read 1 messages
+Sat 2018/09/22 14:58:05 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
+Sat 2018/09/22 15:31:59 gammu-smsd: Message without SMSC, assuming you want to use the one from phone
